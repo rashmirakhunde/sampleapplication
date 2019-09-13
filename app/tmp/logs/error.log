@@ -1,0 +1,1332 @@
+2019-09-11 17:09:57 Error: [MissingControllerException] Controller class PhpmyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmyadminController',
+  'plugin' => NULL,
+)
+Request URL: /phpmyadmin
+Stack Trace:
+#0 /var/www/html/demo/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-11 17:10:33 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 /var/www/html/demo/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-11 17:40:47 Error: [NotFoundException] Not Found
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/demo/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/d...', Array)
+#2 /var/www/html/demo/lib/Cake/View/View.php(473): View->_render('/var/www/html/d...')
+#3 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /var/www/html/demo/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-11 17:42:25 Error: [NotFoundException] Not Found
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/demo/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/d...', Array)
+#2 /var/www/html/demo/lib/Cake/View/View.php(473): View->_render('/var/www/html/d...')
+#3 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /var/www/html/demo/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-11 19:02:48 Error: [NotFoundException] Not Found
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/demo/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/d...', Array)
+#2 /var/www/html/demo/lib/Cake/View/View.php(473): View->_render('/var/www/html/d...')
+#3 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /var/www/html/demo/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-11 19:04:43 Error: [NotFoundException] Not Found
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/demo/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/d...', Array)
+#2 /var/www/html/demo/lib/Cake/View/View.php(473): View->_render('/var/www/html/d...')
+#3 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render('home', NULL)
+#4 /var/www/html/demo/app/Controller/PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-11 19:07:15 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /users
+Stack Trace:
+#0 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-09-11 19:07:53 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /users
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 11:31:38 Error: [TypeError] Argument 1 passed to Hash::filter() must be of the type array, null given, called in /var/www/html/demo/lib/Cake/View/Helper.php on line 576
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/Helper.php(576): Hash::filter(NULL)
+#1 /var/www/html/demo/lib/Cake/View/Helper/FormHelper.php(1054): Helper->setEntity(Array)
+#2 /var/www/html/demo/app/View/Users/index.ctp(9): FormHelper->input(Array)
+#3 /var/www/html/demo/lib/Cake/View/View.php(971): include('/var/www/html/d...')
+#4 /var/www/html/demo/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/d...', Array)
+#5 /var/www/html/demo/lib/Cake/View/View.php(473): View->_render('/var/www/html/d...')
+#6 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#7 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-12 12:00:30 Error: [Error] Call to a member function read() on null
+Request URL: /
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 12:01:37 Error: [Error] Call to a member function read() on null
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(61): AppController->beforeFilter()
+#1 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): UsersController->beforeFilter(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 12:01:37 Error: Fatal Error (1): Uncaught Error: Call to a member function read() on null in /var/www/html/demo/app/Controller/AppController.php:44
+Stack trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown in [/var/www/html/demo/app/Controller/AppController.php, line 44]
+2019-09-12 12:01:37 Error: [FatalErrorException] Uncaught Error: Call to a member function read() on null in /var/www/html/demo/app/Controller/AppController.php:44
+Stack trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/var/www/html/d...', 44)
+#1 /var/www/html/demo/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/var/www/html/d...', 44, Array)
+#2 /var/www/html/demo/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-12 12:01:47 Error: [Error] Call to a member function read() on null
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(61): AppController->beforeFilter()
+#1 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): UsersController->beforeFilter(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 12:01:47 Error: Fatal Error (1): Uncaught Error: Call to a member function read() on null in /var/www/html/demo/app/Controller/AppController.php:44
+Stack trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown in [/var/www/html/demo/app/Controller/AppController.php, line 44]
+2019-09-12 12:01:47 Error: [FatalErrorException] Uncaught Error: Call to a member function read() on null in /var/www/html/demo/app/Controller/AppController.php:44
+Stack trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/var/www/html/d...', 44)
+#1 /var/www/html/demo/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/var/www/html/d...', 44, Array)
+#2 /var/www/html/demo/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-12 12:10:07 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 51 and exactly 1 expected
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(51): CakeRequest->data()
+#1 [internal function]: UsersController->index('login')
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 12:11:14 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 52 and exactly 1 expected
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(52): CakeRequest->data()
+#1 [internal function]: UsersController->index('login')
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 12:54:41 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+Request URL: /
+Stack Trace:
+#0 [internal function]: App::load('UsersController')
+#1 [internal function]: spl_autoload_call('UsersController')
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(266): class_exists('UsersController')
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 13:00:12 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 14:31:09 Error: [Error] Call to undefined method AuthComponent::setUser()
+Request URL: /
+Stack Trace:
+#0 [internal function]: UsersController->index()
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 14:33:14 Error: [Error] Call to undefined method UsersController::loadComponent()
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(84): AppController->beforeFilter()
+#1 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): UsersController->beforeFilter(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 14:33:14 Error: Fatal Error (1): Uncaught Error: Call to undefined method CakeErrorController::loadComponent() in /var/www/html/demo/app/Controller/AppController.php:41
+Stack trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown in [/var/www/html/demo/app/Controller/AppController.php, line 41]
+2019-09-12 14:33:14 Error: [FatalErrorException] Uncaught Error: Call to undefined method CakeErrorController::loadComponent() in /var/www/html/demo/app/Controller/AppController.php:41
+Stack trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/var/www/html/d...', 41)
+#1 /var/www/html/demo/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/var/www/html/d...', 41, Array)
+#2 /var/www/html/demo/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-12 14:33:43 Error: [Error] Call to a member function allow() on null
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): UsersController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 14:33:43 Error: Fatal Error (1): Uncaught Error: Call to undefined method CakeErrorController::loadComponent() in /var/www/html/demo/app/Controller/AppController.php:41
+Stack trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown in [/var/www/html/demo/app/Controller/AppController.php, line 41]
+2019-09-12 14:33:43 Error: [FatalErrorException] Uncaught Error: Call to undefined method CakeErrorController::loadComponent() in /var/www/html/demo/app/Controller/AppController.php:41
+Stack trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/var/www/html/d...', 41)
+#1 /var/www/html/demo/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/var/www/html/d...', 41, Array)
+#2 /var/www/html/demo/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-12 14:33:44 Error: [Error] Call to a member function allow() on null
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): UsersController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 14:33:44 Error: Fatal Error (1): Uncaught Error: Call to undefined method CakeErrorController::loadComponent() in /var/www/html/demo/app/Controller/AppController.php:41
+Stack trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown in [/var/www/html/demo/app/Controller/AppController.php, line 41]
+2019-09-12 14:33:44 Error: [FatalErrorException] Uncaught Error: Call to undefined method CakeErrorController::loadComponent() in /var/www/html/demo/app/Controller/AppController.php:41
+Stack trace:
+#0 /var/www/html/demo/lib/Cake/Event/CakeEventManager.php(244): AppController->beforeFilter(Object(CakeEvent))
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(682): CakeEventManager->dispatch(Object(CakeEvent))
+#2 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(158): Controller->startupProcess()
+#3 /var/www/html/demo/lib/Cake/Error/ExceptionRenderer.php(95): ExceptionRenderer->_getController(Object(Error))
+#4 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(126): ExceptionRenderer->__construct(Object(Error))
+#5 [internal function]: ErrorHandler::handleException(Object(Error))
+#6 {main}
+  thrown
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', '/var/www/html/d...', 41)
+#1 /var/www/html/demo/lib/Cake/Core/App.php(970): ErrorHandler::handleError(1, 'Uncaught Error:...', '/var/www/html/d...', 41, Array)
+#2 /var/www/html/demo/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-12 14:46:24 Error: Fatal Error (64): Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in [/var/www/html/demo/app/Controller/AppController.php, line 43]
+2019-09-12 14:46:24 Error: [FatalErrorException] Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot use isse...', '/var/www/html/d...', 43)
+#1 /var/www/html/demo/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'Cannot use isse...', '/var/www/html/d...', 43, Array)
+#2 /var/www/html/demo/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-12 15:13:36 Error: [MissingViewException] View file "Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/login.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/login')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 15:14:03 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 15:14:16 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 15:18:02 Error: Fatal Error (64): Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in [/var/www/html/demo/app/Controller/AppController.php, line 46]
+2019-09-12 15:18:02 Error: [FatalErrorException] Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+Request URL: /users/dashboard
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot use isse...', '/var/www/html/d...', 46)
+#1 /var/www/html/demo/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'Cannot use isse...', '/var/www/html/d...', 46, Array)
+#2 /var/www/html/demo/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-09-12 15:42:04 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 15:42:15 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 15:42:20 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 15:43:33 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 15:47:45 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 16:00:29 Error: [Error] Call to a member function find() on null
+Request URL: /users/dashboard
+Stack Trace:
+#0 [internal function]: UsersController->dashboard()
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 16:01:00 Error: [Error] Call to a member function find() on null
+Request URL: /users/dashboard
+Stack Trace:
+#0 [internal function]: UsersController->dashboard()
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 17:16:19 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 97 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(97): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:17:06 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 97 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(97): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:19:58 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 97 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(97): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:20:55 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 97 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(97): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:21:41 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 97 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(97): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:22:42 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 97 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(97): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:32:04 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/assignmanager?manager=
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 17:33:09 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/assignmanager?manager=
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 17:41:14 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:41:20 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:41:21 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:41:22 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:41:24 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:41:25 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:41:25 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:41:26 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:42:37 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=2
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:42:38 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=2
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:44:13 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:44:16 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:47:27 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 97 and exactly 1 expected
+Request URL: /users/dashboard?manager=3&studentId=2
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(97): CakeRequest->data()
+#1 [internal function]: UsersController->dashboard()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:47:28 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 97 and exactly 1 expected
+Request URL: /users/dashboard?manager=3&studentId=2
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(97): CakeRequest->data()
+#1 [internal function]: UsersController->dashboard()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:47:39 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 97 and exactly 1 expected
+Request URL: /users/dashboard?manager=3&studentId=2
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(97): CakeRequest->data()
+#1 [internal function]: UsersController->dashboard()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:48:50 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=&studentId=2
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:48:57 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=2&studentId=2
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:51:27 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=2
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:51:28 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=2
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:51:30 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=2
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:52:57 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:53:00 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager?manager=3&studentId=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:56:41 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 17:58:58 Error: [MissingHelperException] Helper class urlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'urlHelper',
+  'plugin' => false,
+)
+Request URL: /users/dashboard
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('url')
+#1 /var/www/html/demo/lib/Cake/View/View.php(858): HelperCollection->__isset('url')
+#2 /var/www/html/demo/app/View/Users/dashboard.ctp(54): View->__get('url')
+#3 /var/www/html/demo/lib/Cake/View/View.php(971): include('/var/www/html/d...')
+#4 /var/www/html/demo/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/d...', Array)
+#5 /var/www/html/demo/lib/Cake/View/View.php(473): View->_render('/var/www/html/d...')
+#6 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#7 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-09-12 17:59:10 Error: [Error] Call to undefined method View::url()
+Request URL: /users/dashboard
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(971): include()
+#1 /var/www/html/demo/lib/Cake/View/View.php(933): View->_evaluate('/var/www/html/d...', Array)
+#2 /var/www/html/demo/lib/Cake/View/View.php(473): View->_render('/var/www/html/d...')
+#3 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#6 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2019-09-12 18:03:38 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 18:04:12 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 18:04:32 Error: [MissingActionException] Action UsersController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'users',
+)
+Request URL: /users/users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-09-12 18:05:14 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 99 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(99): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 18:08:45 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 99 and exactly 1 expected
+Request URL: /users/assignmanager?data%5BUser%5D%5Bid%5D=&data%5BUser%5D%5Bmanager%5D=3
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(99): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 18:13:06 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 99 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(99): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 18:13:12 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 99 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(99): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 18:20:38 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 18:25:41 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 18:26:31 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 18:32:18 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id=' at line 1
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('update students...', Array)
+#2 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('update students...', Array, Array)
+#3 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('update students...', Array)
+#4 /var/www/html/demo/lib/Cake/Model/Model.php(3489): DboSource->query('update students...', false)
+#5 /var/www/html/demo/app/Controller/UsersController.php(102): Model->query('update students...')
+#6 [internal function]: UsersController->assignmanager()
+#7 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-12 18:32:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('update students...', Array)
+#2 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('update students...', Array, Array)
+#3 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('update students...', Array)
+#4 /var/www/html/demo/lib/Cake/Model/Model.php(3489): DboSource->query('update students...', false)
+#5 /var/www/html/demo/app/Controller/UsersController.php(102): Model->query('update students...')
+#6 [internal function]: UsersController->assignmanager()
+#7 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-12 18:41:20 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 18:41:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('update students...', Array)
+#2 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('update students...', Array, Array)
+#3 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('update students...', Array)
+#4 /var/www/html/demo/lib/Cake/Model/Model.php(3489): DboSource->query('update students...', false)
+#5 /var/www/html/demo/app/Controller/UsersController.php(102): Model->query('update students...')
+#6 [internal function]: UsersController->assignmanager()
+#7 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-12 18:42:46 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('update students...', Array)
+#2 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('update students...', Array, Array)
+#3 /var/www/html/demo/lib/Cake/Model/Datasource/DboSource.php(641): DboSource->fetchAll('update students...', Array)
+#4 /var/www/html/demo/lib/Cake/Model/Model.php(3489): DboSource->query('update students...', false)
+#5 /var/www/html/demo/app/Controller/UsersController.php(102): Model->query('update students...')
+#6 [internal function]: UsersController->assignmanager()
+#7 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-09-12 18:49:16 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 18:52:32 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 101 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(101): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 18:53:07 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 18:53:22 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 101 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(101): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 18:56:09 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 18:58:32 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 100 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(100): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 18:58:59 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 18:59:15 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 102 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(102): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 19:00:18 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:00:32 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 102 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(102): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 19:02:13 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 102 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(102): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 19:03:31 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 102 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(102): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 19:05:56 Error: [ArgumentCountError] Too few arguments to function CakeRequest::data(), 0 passed in /var/www/html/demo/app/Controller/UsersController.php on line 102 and exactly 1 expected
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/app/Controller/UsersController.php(102): CakeRequest->data()
+#1 [internal function]: UsersController->assignmanager()
+#2 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-09-12 19:07:33 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:11:30 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:12:00 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:14:18 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:16:26 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:19:40 Error: [MissingViewException] View file "Users/assignmanager.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/assignmanager.ctp',
+)
+Request URL: /users/assignmanager
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/assignman...')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:31:21 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/logout')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:31:58 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/logout')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:32:01 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/logout')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:45:05 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/logout')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:45:34 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/logout')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:58:03 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/logout')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:58:37 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/logout')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 19:59:23 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/logout')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 20:01:54 Error: [MissingViewException] View file "Users/logout.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/logout.ctp',
+)
+Request URL: /users/logout
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/View/View.php(470): View->_getViewFileName('Users/logout')
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(968): View->render(NULL, NULL)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-12 20:02:55 Error: [Error] Call to undefined method SessionComponent::User()
+Request URL: /users/studentdashboard
+Stack Trace:
+#0 [internal function]: UsersController->studentdashboard()
+#1 /var/www/html/demo/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /var/www/html/demo/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/demo/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-09-13 10:31:55 Error: Fatal Error (64): Declaration of PHPUnit_Framework_Comparator_DOMDocument::assertEquals($expected, $actual, $delta = 0, $canonicalize = false, $ignoreCase = false) must be compatible with PHPUnit_Framework_Comparator_Object::assertEquals($expected, $actual, $delta = 0, $canonicalize = false, $ignoreCase = false, array &$processed = Array) in [phar:///var/www/html/demo/vendors/phpunit.phar/phpunit/Framework/Comparator/DOMDocument.php, line 0]
+2019-09-13 10:31:55 Error: [FatalErrorException] Declaration of PHPUnit_Framework_Comparator_DOMDocument::assertEquals($expected, $actual, $delta = 0, $canonicalize = false, $ignoreCase = false) must be compatible with PHPUnit_Framework_Comparator_Object::assertEquals($expected, $actual, $delta = 0, $canonicalize = false, $ignoreCase = false, array &$processed = Array)
+Stack Trace:
+#0 /var/www/html/demo/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Declaration of ...', 'phar:///var/www...', 0)
+#1 /var/www/html/demo/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'Declaration of ...', 'phar:///var/www...', 0, Array)
+#2 /var/www/html/demo/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
